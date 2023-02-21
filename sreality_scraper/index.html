@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scraped Flats</title>
+</head>
+<body>
+	<h1>Scraped Flats</h1>
+	<ul>
+		{% for item in items %}
+			<li>
+				<h2>{{ item[1] }}</h2>
+				<img src= {{ item[2] }} >
+			</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>
