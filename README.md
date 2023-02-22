@@ -21,4 +21,5 @@ Use scrapy framework to scrape the first 500 items (title, image url) from sreal
 ## Notes
 - Little time for developemt
 - The threading is not perfect – both Flask and Scrapy require main thread
+-> due to the multithreading, the initial scrape might stop for few seconds at some point and then continue (launching server simultaneously)
 
