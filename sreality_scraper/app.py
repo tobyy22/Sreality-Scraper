@@ -25,4 +25,4 @@ if __name__ == '__main__':
         database.delete_all_items()
         subprocess.check_output(['python3', 'sreality_scraper/spiders/sreality_spider.py'])
         
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080)
